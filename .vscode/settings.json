@@ -1,0 +1,11 @@
+{
+  "eslint.format.enable": true,
+  "editor.fontSize": 15,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true
+  },
+  "workbench.colorTheme": "Night Wolf (gray)",
+  "reactSnippets.settings.typescriptPropsStatePrefix": "type"
+}
