@@ -1,12 +1,9 @@
-import {
-  UsernamePasswordRequestPayload,
-  getPasswordRequestPayload,
-  getUrl,
-} from './common.types';
+import { getPasswordRequestPayload, getUrl } from './utils/request.helpers';
 
 import { Axios } from 'axios';
 import { HttpService } from '@nestjs/axios';
 import { Injectable } from '@nestjs/common';
+import { UsernamePasswordRequestPayload } from './types/common/common.types';
 
 @Injectable()
 export class AppService {
